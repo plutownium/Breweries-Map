@@ -14,3 +14,5 @@ To see the map in your own browser:
 
 1) Simply click on the green button that says "Clone or download" and choose "Download ZIP".
 2) Open the ZIP file on your computer. There will be one file inside of it. Run that file in your browser of choice (I like Chrome).
+
+If these instructions do not work for you, contact me on Twitter and I'll help you -- I hate it when I can't install something. I'm @rolypolyistaken
