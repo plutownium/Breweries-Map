@@ -8,7 +8,7 @@ There are approximately 915 breweries total on the map.
 
 <h1>To see the map yourself...</h1>
 
-<strong>Click this link to see the map:</strong> https://imgur.com/a/DgG205B
+<strong>Click this link to see a static image of the map:</strong> https://imgur.com/a/DgG205B (The version in your browser can zoom in and out)
 
 To see the map in your own browser:
 
