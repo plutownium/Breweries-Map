@@ -55,6 +55,14 @@
 						}
 					}
 
+					var size = new OpenLayers.Size(21, 25);
+					var offset = new OpenLayers.Pixel(-(size.w / 2), -size.h);
+					var icon = new OpenLayers.Icon(
+						"C:\\Users\\Roland\\dir2_JS\\opslevel_two\\marker.png",
+						size,
+						offset
+					);
+
 					var zoom = 6;
 
 					var markers = new OpenLayers.Layer.Markers("Markers");
@@ -62,7 +70,8 @@
 
 					for (let i = 0; i < markersList.length; i++) {
 						markers.addMarker(
-							new OpenLayers.Marker(markersList[i])
+							// set the new marker...
+							new OpenLayers.Marker(markersList[i], icon.clone())
 						);
 					}
 
@@ -79,6 +88,5 @@
 					map.setCenter(testMarker, zoom);
 				});
 		</script>
-		<!-- <script src="./app.js"></script> -->
 	</body>
 </html>
